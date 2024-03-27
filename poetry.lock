@@ -435,6 +435,17 @@ doc = ["sphinx"]
 test = ["pytest", "pytest-cov"]
 
 [[package]]
+name = "types-pymysql"
+version = "1.1.0.1"
+description = "Typing stubs for PyMySQL"
+optional = false
+python-versions = "*"
+files = [
+    {file = "types-PyMySQL-1.1.0.1.tar.gz", hash = "sha256:72bdaecb88de4a30bc3e1842e1d4522ceb3c4b2e883a6a2a7a7162775dd27b93"},
+    {file = "types_PyMySQL-1.1.0.1-py3-none-any.whl", hash = "sha256:9aec9ee0453314d477ef26e5832b4a992bc4cc3557358d62b0fe4af760a7728f"},
+]
+
+[[package]]
 name = "types-pytz"
 version = "2024.1.0.20240203"
 description = "Typing stubs for pytz"
@@ -481,4 +492,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "43f3203d04f8373432a79ad31e36496ab5868c1c66367cd3690c1ccc495a03ef"
+content-hash = "7913ac4f5d31169187fc42fe617cca9afc7000816dfa0310013dc5fd4b4d9fb0"
